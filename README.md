@@ -1,10 +1,10 @@
 # Freeradius Docker image
 
-Lightweight and fast Freeradius3 v3.0.11-r0 server. This image is based on the minimalistic Alpine Linux and is currently 62MB. 
+Lightweight and fast Freeradius3 v3.0.12-r2 server. This image is based on the minimalistic Alpine Linux and is currently 34MB.
 
-## How to use 
+## How to use
 
-I have made a simple example setup in https://github.com/marcelmaatkamp/docker-compose-applications/tree/master/freeradius.  Set the ip-range which will connect to the server and the server-secret in `clients.conf`, set the user/password combination in `users`. 
+I have made a simple example setup in https://github.com/marcelmaatkamp/docker-compose-applications/tree/master/freeradius.  Set the ip-range which will connect to the server and the server-secret in `clients.conf`, set the user/password combination in `users`.
 
 ## Installation
 ```
